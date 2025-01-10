@@ -2,7 +2,7 @@ export interface Part {
     id: number;
     name: string;
     price: number;
-    quantity?: number; 
+    quantity?: number;
     partId: string;
     category: string;
 }
@@ -32,5 +32,5 @@ export interface OrderItem {
     productId: number;
     quantity: number;
     price: number;
-    name?: string; 
-}
+    name?: string;
+};

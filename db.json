@@ -1,137 +1,137 @@
 {
-  "categories": [
-    {
-      "name": "Podstawowa",
-      "identifier": "basic",
-      "position": 1,
-      "id": "1"
-    },
-    {
-      "name": "Zaawansowana",
-      "identifier": "advanced",
-      "position": 2,
-      "id": "2"
-    },
-    {
-      "name": "Sportowa",
-      "identifier": "sport",
-      "position": 3,
-      "id": "3"
-    }
-  ],
-  "parts": [
-    {
-      "name": "nawigacja",
-      "price": 3000,
-      "id": "4",
-      "partId": "navi",
-      "category": "1"
-    },
-    {
-      "name": "klimatyzacja",
-      "price": 2000,
-      "id": "5",
-      "partId": "ac",
-      "category": "1"
-    },
-    {
-      "name": "skórzana tapicerka",
-      "price": 5000,
-      "id": "6",
-      "partId": "leather-seats",
-      "category": "1"
-    },
-    {
-      "name": "podwójny wydech",
-      "price": 1000,
-      "id": "7",
-      "partId": "double-exhaust",
-      "category": "1"
-    },
-    {
-      "name": "otwierany dach",
-      "price": 2000,
-      "id": "8",
-      "partId": "opening-roof",
-      "category": "1"
-    },
-    {
-      "name": "podwójny wydech",
-      "price": 1000,
-      "id": "12",
-      "partId": "double-exhaust",
-      "category": "2"
-    },
-    {
-      "name": "otwierany dach",
-      "price": 2000,
-      "id": "13",
-      "partId": "opening-roof",
-      "category": "2"
-    },
-    {
-      "name": "klimatyzacja",
-      "price": 2000,
-      "id": "15",
-      "partId": "ac",
-      "category": "3"
-    },
-    {
-      "name": "skórzana tapicerka",
-      "price": 5000,
-      "id": "16",
-      "partId": "leather-seats",
-      "category": "3"
-    },
-    {
-      "name": "Podwójny wydech",
-      "price": 500,
-      "id": "2",
-      "partId": "double-exhaust",
-      "category": "2"
-    }
-  ],
-  "orders": [
-    {
-      "id": "d7aa",
-      "items": [
+    "categories": [
         {
-          "productId": null,
-          "quantity": 1,
-          "name": "nawigacja",
-          "price": 3000,
-          "id": "4",
-          "partId": "navi",
-          "category": "1"
-        }
-      ],
-      "total": 3000,
-      "details": "nawigacja",
-      "value": 3000,
-      "firstName": "Piotr ",
-      "lastName": "Ciecierski",
-      "email": ""
-    },
-    
-    {
-      "id": "117b",
-      "items": [
+            "name": "Podstawowa",
+            "identifier": "basic",
+            "position": 1,
+            "id": "1"
+        },
         {
-          "productId": null,
-          "quantity": 1,
-          "name": "otwierany dach",
-          "price": 2000,
-          "id": "8",
-          "partId": "opening-roof",
-          "category": "1"
+            "name": "Zaawansowana",
+            "identifier": "advanced",
+            "position": 2,
+            "id": "2"
+        },
+        {
+            "name": "Sportowa",
+            "identifier": "sport",
+            "position": 3,
+            "id": "3"
         }
-      ],
-      "total": 2000,
-      "details": "otwierany dach",
-      "value": 2000,
-      "firstName": "Piotr",
-      "lastName": "Piotrowski",
-      "email": "piotr@o2.pl"
-    }
-  ]
+    ],
+    "parts": [
+        {
+            "name": "nawigacja",
+            "price": 3000,
+            "id": "4",
+            "partId": "navi",
+            "category": "1"
+        },
+        {
+            "name": "klimatyzacja",
+            "price": 2000,
+            "id": "5",
+            "partId": "ac",
+            "category": "1"
+        },
+        {
+            "name": "skórzana tapicerka",
+            "price": 5000,
+            "id": "6",
+            "partId": "leather-seats",
+            "category": "1"
+        },
+        {
+            "name": "podwójny wydech",
+            "price": 1000,
+            "id": "7",
+            "partId": "double-exhaust",
+            "category": "1"
+        },
+        {
+            "name": "otwierany dach",
+            "price": 2000,
+            "id": "8",
+            "partId": "opening-roof",
+            "category": "1"
+        },
+        {
+            "name": "podwójny wydech",
+            "price": 1000,
+            "id": "12",
+            "partId": "double-exhaust",
+            "category": "2"
+        },
+        {
+            "name": "otwierany dach",
+            "price": 2000,
+            "id": "13",
+            "partId": "opening-roof",
+            "category": "2"
+        },
+        {
+            "name": "klimatyzacja",
+            "price": 2000,
+            "id": "15",
+            "partId": "ac",
+            "category": "3"
+        },
+        {
+            "name": "skórzana tapicerka",
+            "price": 5000,
+            "id": "16",
+            "partId": "leather-seats",
+            "category": "3"
+        },
+        {
+            "name": "Podwójny wydech",
+            "price": 500,
+            "id": "2",
+            "partId": "double-exhaust",
+            "category": "2"
+        }
+    ],
+    "orders": [
+        {
+            "id": "d7aa",
+            "items": [
+                {
+                    "productId": null,
+                    "quantity": 1,
+                    "name": "nawigacja",
+                    "price": 3000,
+                    "id": "4",
+                    "partId": "navi",
+                    "category": "1"
+                }
+            ],
+            "total": 3000,
+            "details": "nawigacja",
+            "value": 3000,
+            "firstName": "Piotr ",
+            "lastName": "Ciecierski",
+            "email": ""
+        },
+
+        {
+            "id": "117b",
+            "items": [
+                {
+                    "productId": null,
+                    "quantity": 1,
+                    "name": "otwierany dach",
+                    "price": 2000,
+                    "id": "8",
+                    "partId": "opening-roof",
+                    "category": "1"
+                }
+            ],
+            "total": 2000,
+            "details": "otwierany dach",
+            "value": 2000,
+            "firstName": "Piotr",
+            "lastName": "Piotrowski",
+            "email": "piotr@o2.pl"
+        }
+    ]
 }
